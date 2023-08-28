@@ -9,20 +9,26 @@ import { Projects } from './(sections)/Projects'
 import { Contact } from './(components)/contactme'
 import CV from '../../public/CV.png'
 
+
 export default function Home() { 
   return (
     <>
     <Contact/>
-      <main id='home' className='p-5 m-5 items-center align-middle justify-center flex h-screen'>
-      <section className='font-textTema text-8xl '>
+      <main id='home' className='min-h-[90vh] sm:p-8 sm:m-5 p-3   sm:items-center sm:align-middle md:flex '>
+      <section className={` md:absolute md:w-1/2 top-20 pt-6 sm:pt-0 right-2 -z-10`}>
+        <Imagens />
+      </section>
+      <section className='font-textTema text-2xl md:text-5xl'>
         <h1 className='m-3 '>Hello,</h1> 
         <h1 className='m-3'>I'm Dário Nzita,</h1>
         <p className=' m-3 text-principal-500 rounded-md text- inline shadow-slate-100'>A full stack Developer.</p>
         <div >
-          <small className='text-xl'>Contacts</small>
-          <div className='flex w-3/4  justify-between mt-6'>
+          <small className='sm:text-xl text-base'>Contacts</small>
+          <div className='flex flex-wrap justify-between sm:mt-6 mt-3'>
             <CopyEmail />
+            <div className='flex justify-between w-52 px-4'>
             <a href="https://github.com/DARIONZITA" target='_blank'>
+            
             <Image
               className='transition-transform hover:-translate-y-3 duration-500'
               src={gitIcon}
@@ -42,18 +48,17 @@ export default function Home() {
             
             </a>
             <Image
-              className='transition-transform hover:-translate-y-3 duration-500'
+              className='max-h-[50px] transition-transform hover:-translate-y-3 duration-500'
               src={CV}
               alt="CV"
               width={50}
-              height={20}
+              height={10}
             />
+            </div>
+            
           </div>
         </div>
         
-      </section>
-      <section className='-z-10'>
-        <Imagens />
       </section>
     </main>
     <About />

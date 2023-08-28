@@ -12,8 +12,8 @@ export function Contact(){
     return (
         <>
          {/* Open the modal using ID.showModal() method */}
-         <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
-            <form method="dialog" className="modal-box grid justify-center">
+         <dialog id="my_modal_5" className="overflow-x-hidden modal modal-bottom sm:modal-middle">
+            <form method="dialog" className="overflow-x-hidden modal-box grid justify-center">
               <h3 className="font-bold text-2xl text-center p-5">Contacts</h3>
               <CopyEmail />
               <div className="p-4 flex justify-around">
@@ -51,7 +51,7 @@ export function Contact(){
               </div>
             </form>
           </dialog>
-        <button className="fixed z-50 contact right-10 top-2 px-6 py-3 font-bol group" onClick={()=>window.my_modal_5.showModal()}>
+        <button className=" fixed z-50  contact right-10 top-4 sm:top-2 px-6 py-3 font-bol group" onClick={()=>window.my_modal_5.showModal()}>
           <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-2 -translate-y-1 bg-contrast-300 group-hover:translate-x-0 group-hover:translate-y-0"></span>
           <span className="absolute inset-0 w-full h-full border-2 border-gray-500"></span>
           <span className="relative text-slate-950 font-medium">Contact Me</span>

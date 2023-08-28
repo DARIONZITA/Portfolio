@@ -16,16 +16,16 @@ import GIT from '../../../public/github.svg'
 import SEO from '../../../public/istockphoto-997463524-612x612.jpg'
 function Tecno(){
     return(
-        <section id="skill" className='text-sm font-hello  from-slate-400 bg-gradient-to-b pb-40 from-90% p-9 h-fit  grid align-middle shadow-inner'>
+        <section id="skill" className='w-screen text-sm font-hello  from-slate-400 bg-gradient-to-b pb-40 from-90% p-0  h-fit  grid align-middle shadow-inner'>
             <div>
-            <h1 className="border-l-4 border-white text-5xl m-2 font-textTema text-white p-5">My Skills</h1>
+            <h1 className="border-l-4 border-white md:ml-9 text-xl sm:text-5xl m-2 font-textTema text-white p-5">My Skills</h1>
             
             </div>
             <aside>
-                <h2 className="text-white m-10 text-3xl text-center">Full Stack Technologies</h2>
-                <div className="w-full flex justify-around">
+                <h2 className="text-white m-10 text-base text-center sm:text-xl">Full Stack Technologies</h2>
+                <div className="w-screen flex-wrap flex justify-center">
     
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card  bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">MERN Stack</h2>
@@ -45,7 +45,7 @@ function Tecno(){
                         </div>
                         </div>
                    
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">Next.js</h2>
@@ -67,11 +67,11 @@ function Tecno(){
                     
                 </div>
             </aside>
-            <aside className="w-full">
-                <h2 className="text-white m-10 text-3xl text-center">Front End Technologies</h2>
-                <div className="w-full flex flex-wrap justify-around">
+            <aside className="w-screen">
+                <h2 className="text-white m-10 text-base text-center sm:text-xl">Front End Technologies</h2>
+                <div className="w-full flex flex-wrap justify-center">
     
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between ">
                                 <h2 className="card-title">React.JS</h2>
@@ -90,7 +90,7 @@ function Tecno(){
                         </div>
                         </div>
                    
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">Tailwind css</h2>
@@ -109,7 +109,7 @@ function Tecno(){
                             </div>
                         </div>
                         </div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">UI/UX concepts</h2>
@@ -129,7 +129,7 @@ function Tecno(){
                             </div>
                         </div>
                         </div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">TypeScript</h2>
@@ -147,7 +147,7 @@ function Tecno(){
                             </div>
                         </div>
                         </div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">Redux ToolKit</h2>
@@ -166,7 +166,7 @@ function Tecno(){
                             </div>
                         </div>
                         </div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">Sass</h2>
@@ -189,11 +189,11 @@ function Tecno(){
                     
                 </div>
             </aside>
-            <aside className="w-full">
-                <h2 className="text-white m-10 text-3xl text-center">Back End Technologies and Data bases</h2>
-                <div className="w-full flex flex-wrap justify-around">
+            <aside className="w-screen">
+                <h2 className="text-white m-10 text-base sm:text-xl text-center">Back End Technologies and Data bases</h2>
+                <div className="w-full flex flex-wrap justify-center">
     
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between ">
                                 <h2 className="card-title">Express.JS</h2>
@@ -213,7 +213,7 @@ function Tecno(){
                         </div>
                         </div>
                    
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">MongoDb</h2>
@@ -232,7 +232,7 @@ function Tecno(){
                             </div>
                         </div>
                         </div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">FastApi</h2>
@@ -250,7 +250,7 @@ function Tecno(){
                             </div>
                         </div>
                         </div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">MySql</h2>
@@ -272,11 +272,11 @@ function Tecno(){
                     
                 </div>
             </aside>
-            <aside>
-                <h2 className="text-white m-10 text-3xl text-center">Basic knowledge</h2>
-                <div className="w-full flex justify-around">
+            <aside className="w-screen">
+                <h2 className="text-white m-10 text-base sm:text-xl text-center">Basic knowledge</h2>
+                <div className="w-full flex-wrap flex justify-center">
     
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">HTML CSS and JS</h2>
@@ -294,7 +294,7 @@ function Tecno(){
                         </div>
                         </div>
                    
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">Git/gitHub</h2>
@@ -310,7 +310,7 @@ function Tecno(){
                             </div>
                         </div>
                         </div>
-                        <div className="card w-96 bg-base-100 shadow-xl">
+                        <div className="card bg-base-100 shadow-xl">
                         <div className="card-body">  
                             <div className="flex justify-between">
                                 <h2 className="card-title">SEO</h2>

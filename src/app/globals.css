@@ -6,13 +6,46 @@
   html{
     scroll-behavior: smooth;
   }
+  body{
+    width: 100vw;
+    overflow-x: hidden;
+  }
 }
 
 @layer components{
-
+  #project .card{
+    @apply max-w-full sm:w-96
+  }
+  #skill .card-title{
+    @apply pr-5 text-base
+  }
   
+  #skill .card Image{
+    @apply w-[10px]
+  }
+  #skill .card{
+    transition-property: height;
+    transition-duration: .5s;
+    
+    max-width: 80%;
+
+    @apply w-96 h-28 
+
+  }
+  
+  #skill .card:hover  {
+    
+    @apply h-fit
+  }
+  #skill .card:hover p {
+    
+    @apply block
+  }
+  #skill .card-body > p {
+    @apply hidden 
+  }
   .card{
-    @apply m-4 border-contrast-300 border-l-4
+    @apply m-1 max-w-[90vh] md:m-4 border-contrast-300 border-l-4
   }
   .btn{
     @apply active:shadow-inner font-textTema font-light hover:bg-transparent btn-outline border-none hover:text-principal-500

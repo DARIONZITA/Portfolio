@@ -14,9 +14,9 @@ export function CopyEmail(){
         setCopied(true);
       };
       return (
-        <div className='animate-wiggle animate-twice animate-duration-1000 animate-delay-500 animate-ease-linear animate-alternate animate-fill-backwards text-sm flex copyEmail'>
+        <div className=' pb-5 animate-wiggle animate-twice animate-duration-1000 animate-delay-500 animate-ease-linear animate-alternate animate-fill-backwards text-sm flex copyEmail'>
         <input
-          className='areacopy bg-contrast-300 p-3 w-[300px] rounded-s-xl text-lg hover:bg-contrast-200 hover:text-white transition-all'
+          className='areacopy bg-contrast-300 p-3 w-full max-w-[300px] rounded-s-xl text-lg hover:bg-contrast-200 hover:text-white transition-all'
           defaultValue={value}
           readOnly
           />

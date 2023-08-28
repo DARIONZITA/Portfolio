@@ -4,16 +4,16 @@ import SHOP from "../../../public/shop.png"
 import PORTFOLIO from "../../../public/portfolio.png"
 import BUILD from "../../../public/build.png"
 import Link from "next/link";
-
 export function Projects(){
     return(
-        <section id="project" className="text-justify bg-white flex flex-wrap p-9 justify-center">
+        
+        <section id="project" className="w-screen text-justify bg-white flex flex-wrap p-9 justify-center">
             <div className="w-screen">
-                <h1 className="border-l-4 border-principal-900 text-5xl m-2 font-textTema p-5">My Main Projects</h1>
+                <h1 className="border-l-4 border-principal-900 text-xl sm:text-5xl m-2 font-textTema p-5">My Main Projects</h1>
             </div>
             <aside>
-            <div className="card w-96 shadow-2xl bg-contrast-400 border-none text-white">
-                    <figure className="bg-white w-full h-56  ">
+            <div className="card shadow-2xl bg-contrast-400 border-none text-white">
+                    <figure className="bg-white w-full  ">
                     <Image
                         className="w-full"
                         src={SHOP}
@@ -28,7 +28,7 @@ export function Projects(){
                 
            
                 <div className="card-body">
-                    <h2 className="card-title">
+                    <h2 className="card-title text-base ">
                     Online Perfume store
                     <a href="https://shop-93nd.onrender.com/" target="_blank" className="badge badge-secondary">view</a>
                     
@@ -47,8 +47,8 @@ export function Projects(){
             </aside>
 
             <aside>
-            <div className="card w-96 shadow-2xl bg-contrast-400 border-none text-white">
-                    <figure className="bg-white w-full h-56 ">
+            <div className="card shadow-2xl bg-contrast-400 border-none text-white">
+                    <figure className="bg-white w-full ">
                     <Image
                         className="w-full"
                         src={CENTRO}
@@ -79,8 +79,8 @@ export function Projects(){
                 </div>
             </aside>
             <aside>
-            <div className="card w-96 shadow-2xl bg-contrast-400 border-none text-white">
-                    <figure className="bg-white w-full h-56  ">
+            <div className="card shadow-2xl bg-contrast-400 border-none text-white">
+                    <figure className="bg-white w-full ">
                     <Image
                         className="w-full"
                         src={PORTFOLIO}
@@ -110,8 +110,8 @@ export function Projects(){
                 </div>
             </aside>
             <aside>
-            <div className="card w-96 shadow-2xl bg-contrast-400 border-none text-white">
-                    <figure className="bg-white w-full h-56  ">
+            <div className="card shadow-2xl bg-contrast-400 border-none text-white">
+                    <figure className="bg-white w-full">
                     <Image
                         className="w-full"
                         src={BUILD}
