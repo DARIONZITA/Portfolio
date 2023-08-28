@@ -12,8 +12,8 @@ export function Contact(){
     return (
         <>
          {/* Open the modal using ID.showModal() method */}
-         <dialog id="my_modal_5" className="overflow-x-hidden modal modal-bottom sm:modal-middle bg-white">
-            <form method="dialog" className="overflow-x-hidden modal-box grid justify-center">
+         <dialog id="my_modal_5" className="overflow-x-hidden modal modal-bottom sm:modal-middle">
+            <form method="dialog" className="bg-white overflow-x-hidden modal-box grid justify-center">
               <h3 className="font-bold text-2xl text-center p-5">Contacts</h3>
               <CopyEmail />
               <div className="p-4 flex justify-around">
