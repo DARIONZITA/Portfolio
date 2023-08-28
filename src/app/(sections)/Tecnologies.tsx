@@ -16,7 +16,8 @@ import GIT from '../../../public/github.svg'
 import SEO from '../../../public/istockphoto-997463524-612x612.jpg'
 function Tecno(){
     return(
-        <section id="skill" className='w-screen text-sm font-hello  from-slate-400 bg-gradient-to-b pb-40 from-90% p-0  h-fit  grid align-middle shadow-inner'>
+        <div className="flex justify-center w-screen">
+            <section id="skill" className='w-[95vw] text-sm font-hello  from-slate-400 bg-gradient-to-b pb-40 from-90% p-0  h-fit  grid align-middle shadow-inner'>
             <div>
             <h1 className="border-l-4 border-white md:ml-9 text-xl sm:text-5xl m-2 font-textTema text-white p-5">My Skills</h1>
             
@@ -333,6 +334,8 @@ function Tecno(){
                 </div>
             </aside>
         </section>
-    )
+
+        </div>
+        )
 }
 export {Tecno}
