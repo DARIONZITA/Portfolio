@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
     <Contact/>
-      <main id='home' className='min-h-[90vh] sm:p-8 sm:m-5 p-3   sm:items-center sm:align-middle md:flex '>
+      <main id='home' className='bg-white min-h-[90vh] sm:p-8 sm:m-5 p-3   sm:items-center sm:align-middle md:flex '>
       <section className={` md:absolute md:w-1/2 top-20 pt-6 sm:pt-0 right-2 -z-10`}>
         <Imagens />
       </section>
@@ -33,8 +33,8 @@ export default function Home() {
               className='transition-transform hover:-translate-y-3 duration-500'
               src={gitIcon}
               alt="github"
-              width={40}
-              height={40}
+              width={30}
+              height={30}
             />
             </a>
             <a href="https://www.linkedin.com/in/d%C3%A1rio-nzita-633728238/" target='_blank'>
@@ -42,7 +42,7 @@ export default function Home() {
               className='transition-transform hover:-translate-y-3 duration-500'
               src={linkedin}
               alt="linkedin"
-              width={50}
+              width={40}
               height={50}
             />
             
@@ -51,7 +51,7 @@ export default function Home() {
               className='max-h-[50px] transition-transform hover:-translate-y-3 duration-500'
               src={CV}
               alt="CV"
-              width={50}
+              width={40}
               height={10}
             />
             </div>
