@@ -16,7 +16,7 @@ export function About(){
             <aside className="animate-fade-left animate-once animate-ease-in md:w-2/3 border-t-8 md:border-l-8 sm:pl-4 border-principal-900 border-solid text-base md:text-2xl m-2 font-normal text-justify indent-3 md:border-t-0  w-[80%]">
             <h1 className="text-5xl m-2 font-textTema indent-0">About Me</h1>
 
-            <p >My name is Dário Nzita and I'm a full stack 
+            <p >My name is Dário Nzita and I&aposm a full stack 
                 developer with <span className="text-contrast-500"> over a year of experience</span>.
                 At the moment I work as a freelancer having worked mainly 
                 with <span className="text-contrast-500">MERN Stack</span> and <span className="text-contrast-500" >Next.js</span> technologies.</p>
