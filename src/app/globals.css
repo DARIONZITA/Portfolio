@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  *{
+    background-color: white;
+  }
   html{
     scroll-behavior: smooth;
   }
