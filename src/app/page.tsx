@@ -20,7 +20,7 @@ export default function Home() {
       </section>
       <section className='font-textTema text-2xl md:text-5xl'>
         <h1 className='m-3 '>Hello,</h1> 
-        <h1 className='m-3'>I'm Dário Nzita,</h1>
+        <h1 className='m-3'>I&apos;m Dário Nzita,</h1>
         <p className=' m-3 text-principal-500 rounded-md text- inline shadow-slate-100'>A full stack Developer.</p>
         <div >
           <small className='sm:text-xl text-base'>Contacts</small>
