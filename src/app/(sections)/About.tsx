@@ -25,8 +25,8 @@ export function About(){
                       potential it holds to shape the way we interact with technology.
             </p>
             <p>
-            Feel free to reach out, and let's discuss how we can turn lines of code into opportunities waiting to be unleashed. 
-            Together, we'll build digital experiences that leave a mark.
+            Feel free to reach out, and let&apos;s discuss how we can turn lines of code into opportunities waiting to be unleashed. 
+            Together, we&apos;ll build digital experiences that leave a mark.
             </p>
     
             </aside>
