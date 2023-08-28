@@ -2,7 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import {fontTextII,fontTextI,fontTema,fontHello,inter} from '@/app/(utilites)/fonts'
 import Link from 'next/link'
-import MENU from '../../../Portfolio/public/menu.png'
+import MENU from '../../public/menu.png'
 import Image from 'next/image'
 export const metadata: Metadata = {
   title: 'Create Next App',
