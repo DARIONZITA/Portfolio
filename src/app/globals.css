@@ -29,7 +29,7 @@
     
     max-width: 80%;
 
-    @apply w-96 h-28 
+    @apply w-96 h-28 bg-white
 
   }
   
