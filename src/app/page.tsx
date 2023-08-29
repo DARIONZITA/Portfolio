@@ -47,6 +47,7 @@ export default function Home() {
             />
             
             </a>
+            <a href="https://drive.google.com/file/d/1oh_NP1q0ysM3_eXSr6MJjAmFLd3G1yh6/view?usp=sharing" target='_blank'>
             <Image
               className='max-h-[50px] sm:w-12 transition-transform hover:-translate-y-3 duration-500'
               src={CV}
@@ -54,6 +55,8 @@ export default function Home() {
               width={40}
               height={30}
             />
+            </a>
+           
             </div>
             
           </div>

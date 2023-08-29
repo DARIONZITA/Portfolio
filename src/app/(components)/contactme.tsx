@@ -36,6 +36,8 @@ export function Contact(){
             />
             
             </a>
+            <a href="https://drive.google.com/file/d/1oh_NP1q0ysM3_eXSr6MJjAmFLd3G1yh6/view?usp=sharing" target='_blank'>
+           
             <Image
               className='transition-transform hover:-translate-y-3 duration-500'
               src={CV}
@@ -43,6 +45,7 @@ export function Contact(){
               width={50}
               height={20}
             />
+            </a>
             
               </div>
               <div className="modal-action">
