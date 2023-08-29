@@ -15,10 +15,10 @@ export default function Home() {
     <>
     <Contact/>
       <main id='home' className='bg-white min-h-[90vh] sm:p-8 sm:m-5 p-3   sm:items-center sm:align-middle md:flex '>
-      <section className={` md:absolute md:w-1/2 top-20 pt-6 sm:pt-0 right-2 -z-10`}>
+      <section className={` md:absolute md:w-1/2 top-20 pt-6 sm:pt-0 right-2`}>
         <Imagens />
       </section>
-      <section className='font-textTema text-2xl md:text-5xl'>
+      <section className='font-textTema text-2xl md:text-5xl z-10'>
         <h1 className='m-3 '>Hello,</h1> 
         <h1 className='m-3'>I&apos;m Dário Nzita,</h1>
         <p className=' m-3 text-principal-500 rounded-md text- inline shadow-slate-100'>A full stack Developer.</p>
@@ -43,16 +43,16 @@ export default function Home() {
               src={linkedin}
               alt="linkedin"
               width={40}
-              height={50}
+              height={40}
             />
             
             </a>
             <Image
-              className='max-h-[50px] transition-transform hover:-translate-y-3 duration-500'
+              className='max-h-[50px] sm:w-12 transition-transform hover:-translate-y-3 duration-500'
               src={CV}
               alt="CV"
               width={40}
-              height={10}
+              height={30}
             />
             </div>
             
