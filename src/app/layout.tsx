@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${fontHello.variable} ${fontTextII.variable} ${fontTextI.variable} ${fontTema.variable}`}>
         <header className='fixed z-50 w-screen shadow-md p-1 top-0 backdrop-blur-md'>
-          <nav className='bg-white sm:hidden h-14'>
+          <nav className=' sm:hidden h-14'>
           <details className="dropdown mb-32">
             <summary className="m-1 btn mt-2"><Image alt='menu' src={MENU} width={40} height={40}/></summary>
             
